@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mazhurnyy\\documentviewer\\": ""
+            "lesha724\\documentviewer\\": ""
         }
     }
 }
