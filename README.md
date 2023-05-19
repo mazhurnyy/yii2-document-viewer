@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist lesha724/yii2-document-viewer "*"
+php composer.phar require --prefer-dist ...../yii2-document-viewer "*"
 ```
 
 or add
 
 ```
-"lesha724/yii2-document-viewer": "*"
+"...../yii2-document-viewer": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,19 +28,19 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \lesha724\documentviewer\GoogleDocumentViewer::widget([
+<?= \.....\documentviewer\GoogleDocumentViewer::widget([
       'url'=>'http://example.com/test.doc',//url на ваш документ 
       'width'=>'100%',
       'height'=>'100%',
       //https://geektimes.ru/post/111647/
       'embedded'=>true,
-      'a'=>\lesha724\documentviewer\GoogleDocumentViewer::A_BI //A_V = 'v', A_GT= 'gt', A_BI = 'bi'
+      'a'=>\.....\documentviewer\GoogleDocumentViewer::A_BI //A_V = 'v', A_GT= 'gt', A_BI = 'bi'
 ]); ?>
 
 ```
 
 ```php
-<?= \lesha724\documentviewer\MicrosoftDocumentViewer::widget([
+<?= \.....\documentviewer\MicrosoftDocumentViewer::widget([
         'url'=>'http://example.com/test.doc',//url на ваш документ
         'width'=>'100%',
         'height'=>'100%'
